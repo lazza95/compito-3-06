@@ -1,0 +1,201 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    color:#000;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    
+
+}
+h1{
+    font-size:4rem;
+    line-height:1.2;
+}
+h2{
+    font-size:3.5rem;
+    line-height:1.1;
+   
+}
+.posizioni{
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+.posizioni h2{
+    color:red;
+}
+article , section,footer{
+    padding:25px;
+}
+
+.Developere{
+    background-color: rgb(13, 13, 128);
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    padding: 50px 30px;
+    
+}
+
+h3{
+    line-height:1;
+}
+
+*{box-sizing: border-box;}
+hr{display: none;}
+
+    /*header*/
+
+header{
+    display: flex;
+    box-shadow:#d3d3d3;
+    background-color: white;
+    flex-direction:column;
+    padding:0;
+    box-shadow: 5px;
+    height:15vh;
+    top:0;
+    z-index:10;
+    
+    
+}
+ul{
+    flex-direction: row;
+}
+.posizioni{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+@media screen and (min-width:800px){
+    header img{
+        max-width:100px;
+        align-self: flex-start;    }
+}
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+header li:not(:last-child){
+    margin-right:2em;
+}
+header ul{
+    display:flex;
+    justify-content:space-around;
+}
+header li{
+    list-style-type:none;
+    align-self:center;
+}
+header a{
+    text-decoration:none;
+    color: #000;
+}
+.pulsante{
+    background-image: linear-gradient(to right, #6cc1e2 , #392f7a);
+    align-items:center;
+    padding-left:1em;
+    padding-right:1.5rem;
+    border:solid 2px #6cc1e2 , #392f7a;
+}
+section #banner{
+
+    background-image:url(../images/banner.jpg);     /*il banner è scomparso alla fine, non ho capito perchè*/
+    background-size:auto;
+    background-position:center;
+    color:white;
+    box-shadow:5px 5px 5px black;
+   
+
+}
+.codici{
+border: solid 2px black;
+text-align: center;
+}
+.motivazioni{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.notebook{
+    display:flex
+    
+}
+table {
+    margin: 0 ,auto;
+    margin-bottom: 2em;
+    width: 100px;
+    float:left;
+}
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+thead tr {
+    background-color: #3f6bca;
+    color: #ffffff;
+}
+th, td {
+    padding: 12px 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #3f6bca;
+
+}
+footer{
+   background-color:rgb (238,238,238);
+   padding: 3em 3em;
+   text-align:start;
+}
+footer p{
+    margin: 2em 0;
+}
+form{
+    margin-top:1em;
+}
+
+button{
+    padding:1rem 1.5rem;
+    
+    color:white;
+    font-size:1.5rem;
+    border-radius:0;
+    background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+    border:none;
+}
+
+
+  
+       
+@media screen and (min-width:768px){
+    header img{
+      display: flex;
+    flex-direction: row;}
+    
+    }
+
+
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+/* RESPONSIVE */
